@@ -77,63 +77,65 @@
 </div>
 
 
-## Demo
+## UI & Demo
 
-<details>
-<summary>메인 페이지</summary>
-
-## 메인 페이지 
 
 <table border>
   <tbody>
     <tr>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/2074c4c4-5d20-493e-93a1-f7ab68cdcddc' alt='gif' />   
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/32865bed-7039-428f-b2b0-3e977c7746ff' alt='gif' />   
       </td>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/0a39d6c1-aac2-446b-ad71-ed3c9959fa21'  alt='gif' />   
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/0250b294-bbbb-4ad3-87d7-7fd6593192de' alt='gif' />   
+      </td>
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/d03fb536-75c7-4c2e-8fdc-873e240a3ab2' alt='gif' />   
+      </td>
+      </tr>
+      <tr>
+      <td align="center" width="33%">
+        <p>메인 페이지</p>
+      </td>
+      <td align="center" width="33%">
+        <p>공지사항 페이지</p>
+      </td>
+      <td align="center" width="33%">
+        <p>로그인 페이지</p>
       </td>
      </tr>
   </tbody>
 </table>
 
-</details>
-
-<details>
-<summary>공지사항 페이지</summary>
-  
-## 공지사항 페이지
 <table border>
   <tbody>
     <tr>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/08f79a4e-445c-40e6-89ff-293509c951a9' alt='gif' />
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/1f3d778c-384e-47dc-9147-130edda296c8' alt='gif' />   
+      </td>
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/a9018b63-0a31-40f1-b997-ccb56e3fb9d3' alt='gif' />   
+      </td>
+      <td align="center" width="33%">
+        <img src = 'https://github.com/Graduate-Okay/.github/assets/75983289/a772384a-e933-4178-8bdb-59f655ded369' alt='gif' />   
+      </td>
+      </tr>
+      <tr>
+      <td align="center" width="33%">
+        <p>졸업 요건 조회페이지</p>
+      </td>
+      <td align="center" width="33%">
+        <p>인기교양 페이지</p>
+      </td>
+      <td align="center" width="33%">
+        <p>리뷰 등록 </p>
       </td>
      </tr>
   </tbody>
 </table>
-</details>
 
 <details>
-<summary>인기교양추천 페이지</summary>
-  
-## 인기교양추천 페이지
-<table border>
-  <tbody>
-    <tr>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/23ec82d2-cd41-4cd4-aaf2-fbeff92ee3a1' alt='gif' />
-      </td>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/b16e7ee3-1aa3-4f59-ad22-4fe8de008fbf' alt='gif' />
-      </td>
-     </tr>
-  </tbody>
-</table>
-</details>
-
-<details>
-<summary>졸업요건조회 페이지</summary>
+<summary>졸업요건조회 경우의 수</summary>
   
 ## 졸업요건조회 페이지
 <table border>
@@ -149,27 +151,21 @@
         <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/08255613-3c56-4871-a92a-5f570c977d64' alt='gif' />
       </td>
      </tr>
-  </tbody>
-</table>
-</details>
-
-<details>
-<summary>로그인 & 마이 페이지</summary>
-  
-## 로그인 & 마이 페이지
-<table border>
-  <tbody>
-    <tr>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/ba482dbd-c358-4557-b649-c339fff89f48' alt='gif' />
+       <tr>
+      <td align="center" width="33%">
+        <p>성공</p>
       </td>
-      <td align="center" width="50%">
-        <img src = 'https://github.com/Graduate-Okay/Graduate-Okay-FE/assets/75983289/aa34226b-26aa-4fc7-8ef6-6ba088e7020f' alt='gif' />
+      <td align="center" width="33%">
+        <p>실패</p>
+      </td>
+      <td align="center" width="33%">
+        <p>에러</p>
       </td>
      </tr>
   </tbody>
 </table>
 </details>
+
 
 ## 유즈케이스
 
@@ -178,6 +174,7 @@
 
 ## 로컬 환경 테스트
 ```terminal
+// 프론트엔드
 git clone https://github.com/Graduate-Okay/Graduate-Okay-FE.git
 yarn install
 yarn start
